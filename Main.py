@@ -48,7 +48,7 @@ def open_buy_ticket_window():
     buy_ticket_window = tk.Toplevel(window)
     buy_ticket_window.title("Ticket Purchase")
     buy_ticket_window.geometry("300x200")
-    buy_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    buy_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
     buy_ticket_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(buy_ticket_window, text = "Ticket Purchase", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -88,7 +88,7 @@ def open_cancel_ticket_window():
     cancel_ticket_window = tk.Toplevel(window)
     cancel_ticket_window.title("Ticket Cancellation")
     cancel_ticket_window.geometry("300x200")
-    cancel_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    cancel_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
     cancel_ticket_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(cancel_ticket_window, text = "Ticket Cancellation", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -118,7 +118,7 @@ def open_view_ticket_information_window():
     view_ticket_window = tk.Toplevel(window)
     view_ticket_window.title("Ticket Information")
     view_ticket_window.geometry("300x200")
-    view_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    view_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
     view_ticket_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(view_ticket_window, text = "Ticket Information", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -162,7 +162,7 @@ def open_recharge_card_window():
     recharge_card_window = tk.Toplevel(window)
     recharge_card_window.title("Recharge Card")
     recharge_card_window.geometry("300x200")
-    recharge_card_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    recharge_card_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
     recharge_card_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(recharge_card_window, text = "Recharge Card", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
