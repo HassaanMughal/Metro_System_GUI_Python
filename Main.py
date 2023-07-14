@@ -48,7 +48,7 @@ def open_buy_ticket_window():
     buy_ticket_window = tk.Toplevel(window)
     buy_ticket_window.title("Ticket Purchase")
     buy_ticket_window.geometry("300x200")
-    buy_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
+    buy_ticket_window.iconbitmap(r'metro.ico')
     buy_ticket_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(buy_ticket_window, text = "Ticket Purchase", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -88,7 +88,7 @@ def open_cancel_ticket_window():
     cancel_ticket_window = tk.Toplevel(window)
     cancel_ticket_window.title("Ticket Cancellation")
     cancel_ticket_window.geometry("300x200")
-    cancel_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
+    cancel_ticket_window.iconbitmap(r'metro.ico')
     cancel_ticket_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(cancel_ticket_window, text = "Ticket Cancellation", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -118,7 +118,7 @@ def open_view_ticket_information_window():
     view_ticket_window = tk.Toplevel(window)
     view_ticket_window.title("Ticket Information")
     view_ticket_window.geometry("300x200")
-    view_ticket_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
+    view_ticket_window.iconbitmap(r'metro.ico')
     view_ticket_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(view_ticket_window, text = "Ticket Information", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -162,7 +162,7 @@ def open_recharge_card_window():
     recharge_card_window = tk.Toplevel(window)
     recharge_card_window.title("Recharge Card")
     recharge_card_window.geometry("300x200")
-    recharge_card_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro_System_GUI_Python\\metro.ico')
+    recharge_card_window.iconbitmap(r'metro.ico')
     recharge_card_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(recharge_card_window, text = "Recharge Card", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -202,7 +202,7 @@ def open_check_card_details_window():
     check_card_details_window = tk.Toplevel(window)
     check_card_details_window.title("Check Card Details")
     check_card_details_window.geometry("300x200")
-    check_card_details_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    check_card_details_window.iconbitmap(r'metro.ico')
     check_card_details_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(check_card_details_window, text = "Card Information", font = ("Helvetica", 10, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -251,7 +251,7 @@ def user_window():
     user_window = tk.Toplevel(window)
     user_window.title("User Portal")
     user_window.geometry("300x400")
-    user_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    user_window.iconbitmap(r'metro.ico')
     user_window.configure(bg = "#9e9e9e")
 
     main_heading = tk.Label(user_window, text = "Welcome to User Portal", font = ("Helvetica", 12, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -301,7 +301,7 @@ def open_admin_window():
         admin_window = tk.Toplevel(window)
         admin_window.title("Admin Portal")
         admin_window.geometry("300x250")
-        admin_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+        admin_window.iconbitmap(r'metro.ico')
         admin_window.configure(bg = "#9e9e9e")
     
         main_heading = tk.Label(admin_window, text = "Welcome to Admin Portal", font = ("Helvetica", 12, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -324,7 +324,7 @@ def open_admin_password_window():
     admin_password_window = tk.Toplevel(window)
     admin_password_window.title("Admin Portal")
     admin_password_window.geometry("300x250")
-    admin_password_window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    admin_password_window.iconbitmap(r'metro.ico')
     admin_password_window.configure(bg = "#9e9e9e")
     
     main_heading = tk.Label(admin_password_window, text = "Welcome to Admin Portal", font = ("Helvetica", 12, "bold", "underline"), fg = "#000000", bg = "#9e9e9e")
@@ -365,10 +365,10 @@ def show_splash_screen():
     splash_root = tk.Tk()
     splash_root.geometry("550x500")
     splash_root.title("Metro Ticketing System")
-    splash_root.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+    splash_root.iconbitmap(r'metro.ico')
     splash_root.configure(bg = "#9e9e9e")
 
-    image = Image.open("C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.png")
+    image = Image.open("metro.png")
     photo = ImageTk.PhotoImage(image)
 
     splash_image = tk.Label(splash_root, image = photo)
@@ -386,7 +386,7 @@ show_splash_screen()
 window = tk.Tk()
 window.title("Metro Ticketing System")
 window.geometry("400x300")
-window.iconbitmap(r'C:\\Users\\Family\\Documents\\GitHub\\Metro System (GUI) _ Python\\metro.ico')
+window.iconbitmap(r'metro.ico')
 window.configure(bg = "#9e9e9e")
 
 main_heading = tk.Label(window, text = "Welcome to Metro Ticketing System", fg = "#000000", bg = "#9e9e9e", font = ("Helvetica", 14, "bold", "underline"))
